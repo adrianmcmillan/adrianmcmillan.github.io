@@ -1,3 +1,15 @@
 * {
     font-family:Arial, Helvetica, sans-serif;
 }
+h1.name {
+    text-align:center;
+}
+body {
+    background-color: rgb(222, 246, 253);
+}
+.about {
+    background: rgb(196, 229, 238);
+}
+section.project {
+    background: rgb(196,229,238);
+}
