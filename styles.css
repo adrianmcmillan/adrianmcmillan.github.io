@@ -3,11 +3,35 @@ h1.name {
 }
 body {
     font-family:Arial, Helvetica, sans-serif;
-    background-color: rgb(222, 246, 253);
+    background-color: rgb(236, 251, 255);
 }
 .about {
     background: rgb(196, 229, 238);
 }
+div.projects {
+    /* "do not use empty rulesets" :1984: */
+    border:default;
+    /* maybe not */
+    /*
+    display:flex;
+    flex-wrap:wrap;
+    */
+}
+img.affinityDiagram {
+    width:25%;
+}
 section.project {
-    background: rgb(196,229,238);
+    border: width 10px;
+    border-style:outset;
+    padding: bottom 8px;
+    padding-top: 8px;
+    border-color: rgb(196,229,238);
+}
+img.project{
+    width: 300px;
+    height: 300px;
+    margin: 10px;
+    border: 2px solid rgb(126, 14, 201); /* choose a color */
+    display: block;
+    margin: auto;
 }
