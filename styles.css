@@ -28,6 +28,11 @@ section.project {
     padding: bottom 8px;
     padding-top: 8px;
     border-color: rgb(196,229,238);
+    /* mistakes were made lessons were not learned >w<
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+     */
 }
 img.project{
     width: 300px;
@@ -41,3 +46,30 @@ img.project{
 img.projectStatementImg {
     size: 33%;
 }
+
+img.otherImg {
+    width: 67%;
+    height: 67%;
+    /*pwease work >_<*/
+    
+}
+/*
+img {
+    margin: auto;
+    width: 50%;
+    border: 3px solid green;
+    padding: 10px;
+}*/
+
+img {
+    display: block;
+    margin: 0 auto;
+  }
+
+/*
+a.projectImg {
+    display:flex;
+    align-content: center;
+    margin:auto;
+}
+    */
